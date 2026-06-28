@@ -40,3 +40,8 @@ print(array1+array2)
 print(array1-array2)
 print(array1*array2)
 print(array1/array2)
+#comparison operators
+SCORE=np.array([90,80,70,100,60])
+print(SCORE==100)
+print(SCORE>80)
+SCORE[SCORE<75]=0
