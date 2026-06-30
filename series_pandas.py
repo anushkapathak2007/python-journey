@@ -33,5 +33,5 @@ series.loc["day1"]+=500
 print(series)
 print(series[series>2000])
 
-### DATAFRAMES ###
+###DataFramesgit status
 

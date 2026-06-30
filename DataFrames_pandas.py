@@ -4,3 +4,8 @@ df=pd.DataFrame(data,index=["employee1","employee2","employee3","employee4"])
 print(df)
 print(df.loc["employee1"])
 print(df.iloc[0])
+##add a new column 
+df["job"]=["fry cook","fry cook","cashier","owner"]
+##add a new row 
+new_row=pd.DataFrame([{"Name":"Sandy","Age":28,"job":"Scientist",}], index=["employee5"] )
+df=pd.concat([df,new_row])
